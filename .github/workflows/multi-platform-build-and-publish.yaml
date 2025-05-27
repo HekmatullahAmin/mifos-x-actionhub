@@ -339,7 +339,7 @@ jobs:
           fetch-depth: 0
 
       - name: Deploy iOS App to Firebase
-        uses: HekmatullahAmin/kmp-publish-ios-on-firebase-action@test-action
+        uses: HekmatullahAmin/mifos-x-actionhub-publish-ios-on-firebase@test-action
         continue-on-error: true
         with:
           app_identifier: ${{ inputs.app_identifier }}
