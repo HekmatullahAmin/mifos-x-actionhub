@@ -347,6 +347,9 @@ jobs:
           git_branch: ${{ inputs.git_branch }}
           match_type: ${{ inputs.match_type }}
           provisioning_profile_name: ${{ inputs.provisioning_profile_name }}
+          appstore_key_id: ${{ secrets.appstore_key_id }}
+          appstore_issuer_id: ${{ secrets.appstore_issuer_id }}
+          appstore_auth_key: ${{ secrets.appstore_auth_key }}
           match_password: ${{ secrets.match_password }}
           match_ssh_private_key: ${{ secrets.match_ssh_private_key }}
           ios_package_name: ${{ inputs.ios_package_name }}
