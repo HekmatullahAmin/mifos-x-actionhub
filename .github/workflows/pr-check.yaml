@@ -116,9 +116,9 @@ on:
         default: true
 
 # Concurrency settings to prevent multiple simultaneous workflow runs
-concurrency:
-  group: build-${{ github.ref }}
-  cancel-in-progress: true  # Cancels previous runs if a new one is triggered
+#concurrency:
+#  group: build-${{ github.ref }}
+#  cancel-in-progress: true  # Cancels previous runs if a new one is triggered
 
 jobs:
   checks:
