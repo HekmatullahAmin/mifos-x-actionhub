@@ -129,7 +129,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Static Analysis Check
-        uses: HekmatullahAmin/mifos-x-actionhub-static-analysis-check@HekmatullahAmin-patch-1
+        uses: HekmatullahAmin/mifos-x-actionhub-static-analysis-check@tests
 
   build_android_app:
     name: Build Android Application
