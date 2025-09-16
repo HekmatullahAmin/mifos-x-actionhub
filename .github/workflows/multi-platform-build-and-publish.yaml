@@ -652,7 +652,7 @@ jobs:
   # Creates GitHub release with all built artifacts
   github_release:
     name: Create Github Release
-    needs: [ publish_android_on_firebase, publish_ios_app_to_firebase, publish_desktop, publish_web ]
+    needs: [ publish_android_on_firebase, publish_ios_app_to_firebase, publish_desktop_external, publish_web ]
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
